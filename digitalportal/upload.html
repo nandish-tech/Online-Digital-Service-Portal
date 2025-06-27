@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Digital Portal</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" type="text/css" href="styles/styleupload.css">
+ <style>
+ .header {
+      width: 100%;
+       height: 90vh;
+      background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8)), url('img/upload.jpg');
+     background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+      position: relative;
+      z-index: 0;
+    }
+  </style>
+</head>
+<body>
+ 
+    <section class="header">
+      <nav>
+        <a href="home.html"><img class="logo" src="img/nandi.jpeg" alt="Logo"></a>
+        <div class="nav-link">
+          <a href="home.html">Home</a>
+          <a href="aboutus.html">About Us</a>
+          <a href="contact.html">Contact</a>
+          <a href="service.html">Service</a>
+          <a href="upload.html">Upload Documents</a>
+        </div>
+      </nav>
+      </section>
+<section>
+      <h2>Document Upload & Payment</h2>
+      <h2><marquee>Enter valid Information</marquee></h2>
+      <div class="flex-container">
+
+        <!-- Upload Box -->
+        <div class="box">
+          <h3>Upload Document</h3>
+          
+<form action="sendmail.php" method="post" enctype="multipart/form-data">
+
+ 
+
+            <label>Name:</label><br>
+            <input type="text" name="name" required><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email" required><br>
+
+            <p>Please Make Sure That Every Document Is Clear </p>
+            <p>To Make Us Easy Place All Documents In One Folder And Send That Folder</p>
+            <p>Instead Of Sendeing Single Picture You Can Send All Documents In One Folder</p>
+
+      <label>Reasons:</label><br>
+<select type="text" name="reason" id="reason-select" required>
+  <option value="">Select a reason</option>
+  <option value="AADHAR CORRECTION AND UPDATION - 150RS/ ">AADHAR CORRECTION AND UPDATION - 150RS/</option>
+  <option value="APPLY FOR DRIVING LISCENCE - 150RS/">APPLY FOR DRIVING LISCENCE - 150RS/ </option>
+  <option value="APPLY FOR VOTER ID - 100RS/">APPLY FOR VOTER ID - 100RS/ </option>
+  <option value="APPLY FOR CASTE & INCOME OR CORRECTIONS - 150RS/">APPLY FOR CASTE & INCOME OR CORRECTIONS - 150RS/ </option>
+  <option value="APPLY FOR PAN CARD AND CORRECTION - 350RS/">APPLY FOR PAN CARD AND CORRECTION - 350RS/ </option>
+  <option value="ONLINE SCHOLARSHIPS - 150RS/ ">ONLINE SCHOLARSHIPS - 150RS/ </option>
+  <option value="Other - 150RS">None of these (please specify) - 150RS/ </option>
+</select><br>
+
+
+
+
+
+<label for="custom-reason" id="custom-reason-label" style="display: none;">Please enter your reason:</label><br>
+<input type="text" id="custom-reason" name="custom-reason" style="display: none;" placeholder="Type your reason"><br>
+
+          <input type="file" name="uploaded_files[]" webkitdirectory multiple required>
+
+    <input type="submit" value="Upload Folder">
+
+            
+          </form>
+        </div>
+
+        <!-- Payment Box -->
+
+        <div class="box payment-section">
+          <h3>Scan & Pay</h3>
+          </br>
+       
+          <p>Use Paytm, Google Pay, Amazon Pay, etc.</p>
+          </br>
+       </br>
+        </br>
+          <img class="qr" src="img/qr-code.jpg" alt="QR Code">
+          </br>
+       </br>
+        </br>
+          <p>After payment, enter your reference number beside.</p>
+          </br>
+       </br>
+      
+          <a href="utrnumber.html"> Enter Your UTR Number By This Link</a>
+        </div>
+</div></section>
+ 
+
+
+<script src="Javascript/scripts/script.js"></script>
+
+
+
+<section class="empty-section"></section>
+
+ <section class="footer">
+  <div class="contact">
+    <p><strong>Email:</strong> nandishgs60@gmail.com</p>
+    <p><strong>Phone:</strong> 7899560461</p>
+  </div>
+
+  <div class="footer-center">
+    <h1>Website Developed By: Nandish</h1>
+    <h3>&copy; 2025</h3>
+    <div class="social-icons">
+      <a href="http://www.facebook.com"><i class="fa fa-facebook facebook-icon"></i></a>
+      <a href="http://www.twitter.com"><i class="fa fa-twitter twitter-icon"></i></a>
+      <a href="http://www.instagram.com"><i class="fa fa-instagram instagram-icon"></i></a>
+      <a href="http://www.linkedin.com"><i class="fa fa-linkedin linkedin-icon"></i></a>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
