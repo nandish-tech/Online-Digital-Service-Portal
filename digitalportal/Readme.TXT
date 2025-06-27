@@ -22,9 +22,4 @@ Open Your browser put inside browser “http://localhost/digitalportal/”
 
 ***** LEAVE A COMMENT IF YOU LOVED OUR WORK *****
 
-
-***** FOR MORE PROJECTS :- https://projectworlds.in/ *****
-
-
-
 #THANK YOU FOR DOWNLOADING
