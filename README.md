@@ -1,2 +1,24 @@
 # Online-Digital-Service-Portal
 Simple project for Beginners 
+
+ONLINE DIGITAL SERVICE PORTAL
+
+WEB BASED PROJECT
+ONLINE DIGITAL SERVICE PORTAL Using PHP and MySQL Installation Steps(Configuration)
+
+Download and Unzip the file on your local system.
+Put this file inside xampp/htdocs/ .
+Database Configuration Open phpmyadmin Create Database digitalportal. Import database digitalportal.sql Open Your browser put inside browser “http://localhost/digitalportal/”
+***** This website is developed as user fiendly interface for the beginners only..*****
+
+***** IF YOU FIND ANY ERRORS OR ANY PROBLEMS RELATED THIS PROGRAM, FEEL FREE TO CONTACT US *****
+
+***** Gmail-nandishgs009@gmail.com *****
+
+***** CONTACT NO - 8073118139 *****
+
+***** LEAVE A COMMENT IF YOU LOVED OUR WORK *****
+
+#THANK YOU FOR DOWNLOADING
+
+
